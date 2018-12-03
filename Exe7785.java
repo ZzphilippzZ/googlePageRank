@@ -35,11 +35,10 @@ class Exe7785
           fillWith = 0;
           System.out.println("Please input valid initial value");
       }
-
-      System.out.println(fillWith);
       Arrays.fill(previousPageRank, fillWith);
 
-      System.out.println(pageRank7785());
+      printRanks(previousPageRank);
+
     }
     else
     {
@@ -81,5 +80,13 @@ class Exe7785
   public static double pageRank7785()
   {
     return (1 - .85)/4;
+  }
+
+  public static void printRanks(double[] pageRankArray)
+  {
+    for(int i = 0; i < pageRankArray.length; i++)
+    {
+      System.out.print("P[" +i+ "] = " +pageRankArray[i]+ " ");
+    }
   }
 }
