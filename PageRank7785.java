@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 import java.text.DecimalFormat;
 
-class Exe7785
+class PageRank7785
 {
   public static void main(String args[])
   {
