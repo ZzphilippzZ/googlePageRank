@@ -1,11 +1,12 @@
+// Philipp Adams cs435 7785 mp
 import java.util.*;
 
-class Graph
+class Graph7785
 {
   int vertices;
-  private LinkedList[] vertexArray;
+  LinkedList[] vertexArray;
 
-  public Graph(int vertices)
+  public Graph7785(int vertices)
   {
     this.vertices = vertices;
     vertexArray = new LinkedList[vertices];
